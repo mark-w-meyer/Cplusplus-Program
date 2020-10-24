@@ -8,7 +8,7 @@ TheZoo::~TheZoo(){
 }
 
 vector<string> animalRecord {};          // Vector for storing animal records
-vector<string> outFromFile;              // Vector accepts data from file
+
 // Struct containing length of columns for data table
 struct DataLen { int trackLen = 7,       // Note that trackLen had to be changed from 6 to 7 to align with behavior of Java class despite instruction in project guide for allowed length of 6, Java prints 6 zeroes
                      nameLen = 14,       // Structs used to track store column widths
